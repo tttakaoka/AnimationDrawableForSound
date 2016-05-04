@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false"
+    android:visible="true">
+
+    <item
+        android:drawable="@drawable/sound_on_max"
+        android:duration="@integer/animation_duration_long" />
+    <item
+        android:drawable="@drawable/sound_on_min"
+        android:duration="@integer/animation_duration" />
+    <item
+        android:drawable="@drawable/sound_on_mid"
+        android:duration="@integer/animation_duration" />
+
+</animation-list>
